@@ -1,0 +1,82 @@
+{
+  "languages": [
+    {
+      "name": "Java",
+      "icon": "java.svg"
+    },
+    {
+      "name": "C#",
+      "icon": "csharp.svg"
+    },
+    {
+      "name": "C",
+      "icon": "c.svg"
+    },
+    {
+      "name": "Python",
+      "icon": "python.svg"
+    },
+    {
+      "name": "JavaScript/TypeScript",
+      "icon": "javascript.svg"
+    },
+    {
+      "name": "SQL/relational databases",
+      "icon": "sql.svg"
+    }
+  ],
+  "frontend": [
+    {
+      "name": "React",
+      "icon": "react.svg"
+    },
+    {
+      "name": "Next.js",
+      "icon": "next.svg"
+    },
+    {
+      "name": "Tailwind",
+      "icon": "tailwind.svg"
+    },
+    {
+      "name": "HTML",
+      "icon": "html.svg"
+    },
+    {
+      "name": "CSS",
+      "icon": "css.svg"
+    }
+  ],
+  "backend": [
+    {
+      "name": "Auth0",
+      "icon": "auth0.svg"
+    },
+    {
+      "name": "Bash",
+      "icon": "bash.svg"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "JUnit/NUnit",
+      "icon": "test.svg"
+    }, 
+    {
+      "name": "Pytorch",
+      "icon": "pytorch.svg"
+    },
+    {
+      "name": "Docker",
+      "icon": "docker.svg"
+    },
+    {
+      "name": "Git",
+      "icon": "git.svg"
+    },
+    {
+      "name": "Figma",
+      "icon": "figma.svg"
+    }
+  ]
+}

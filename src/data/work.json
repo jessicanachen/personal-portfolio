@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Software Engineering Intern",
+    "date": "May 2025 - August 2025",
+    "company": "Roblox Corporation",
+    "location": "San Mateo, California",
+    "description": ["Current"]
+  },
+  {
+    "title": "Software Engineering Intern",
+    "date": "May 2024 - August 2024",
+    "company": "Roblox Corporation",
+    "location": "San Mateo, California",
+    "description": [
+      "Developed an internal package management registry website using Next.js, Docker, and C#, optimizing developer workflows by centralizing package information and enhancing discoverability.",
+      "Engineered a responsive frontend with Next.js and Tailwind CSS, facilitating seamless search, navigation, and metadata display for 150+ packages, similar to npm and Crates.io.",
+      "Authored a comprehensive API specification and implemented robust backend services in C# to store, retrieve, and process package metadata from JFrog REST API and Git repositories, ensuring accurate data presentation.",
+      "Ensured code quality by writing extensive unit tests with NUnit, covering all backend functionalities from data retrieval to processing."
+    ]
+  },
+  {
+    "title": "Teaching Assistant",
+    "date": "August 2023 - Present",
+    "company": "Duke University Departments of CS and ECE",
+    "location": "Durham, North Carolina",
+    "description": [
+      "Assisted with 3 courses across the CS and ECE departments (Design and Analysis of Algorithms, Computer Architecture, and Discrete Math), consistently earning high satisfaction ratings in course evaluations.",
+      "Led recitations for over 100+ students, simplifying complex concepts and facilitating discussions on practical application of course material to strengthen students' understanding.",
+      "Held regular office hours helping students master challenging topics and enhance their problem-solving skills."
+    ]
+  },
+  {
+    "title": "Research Assistant",
+    "date": "June 2023 - December 2023",
+    "company": "University of South Carolina",
+    "location": "Columbia, South Carolina",
+    "description": [
+      "Tested different segmentation models for improving edge detection in images specifically related to detecting bubbles.",
+      "Labeled training data to improve distinction and visibility between bubbles."
+    ]
+  },
+  {
+    "title": "Research Assistant",
+    "date": "June 2022 - August 2022",
+    "company": "University of South Carolina",
+    "location": "Columbia, South Carolina",
+    "description": [
+      "Implemented and compared regression models for optimal accuracy (MAPE, R2) using Python, Pandas, and Jupyter Notebook for predicting lithium compounds with high ion conductivity."
+    ]
+  }
+]

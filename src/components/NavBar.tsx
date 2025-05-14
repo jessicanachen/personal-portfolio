@@ -43,14 +43,14 @@ export default function Navbar() {
             projects
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             href="/interactions"
             aria-current={currentPath === "/interactions" ? "page" : undefined}
           >
             interactions
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
