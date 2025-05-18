@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Linkedin, Github, FileText, Hexagon } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import header from "@/data/header.json";
 import work from "@/data/work.json";
@@ -104,6 +104,22 @@ export default function Home() {
       ))}
     </div>
   );
+
+  // theme
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    const darkModeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+    const updateTheme = () => {
+      setTheme(darkModeQuery.matches ? "dark" : "light");
+    };
+
+    updateTheme();
+    darkModeQuery.addEventListener("change", updateTheme);
+
+    return () => darkModeQuery.removeEventListener("change", updateTheme);
+  }, []);
 
   return (
     <Layout>
@@ -225,7 +241,7 @@ export default function Home() {
               <Image
                 src={`/images/skicons/${activeSkillTab.toLowerCase()}/${
                   skill.icon
-                }`}
+                }_${theme}.svg`}
                 alt={skill.name}
                 width={32}
                 height={32}

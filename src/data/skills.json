@@ -2,81 +2,81 @@
   "languages": [
     {
       "name": "Java",
-      "icon": "java.svg"
+      "icon": "java"
     },
     {
       "name": "C#",
-      "icon": "csharp.svg"
+      "icon": "csharp"
     },
     {
       "name": "C",
-      "icon": "c.svg"
+      "icon": "c"
     },
     {
       "name": "Python",
-      "icon": "python.svg"
+      "icon": "python"
     },
     {
       "name": "JavaScript/TypeScript",
-      "icon": "javascript.svg"
+      "icon": "javascript"
     },
     {
       "name": "SQL/relational databases",
-      "icon": "sql.svg"
+      "icon": "sql"
     }
   ],
   "frontend": [
     {
       "name": "React",
-      "icon": "react.svg"
+      "icon": "react"
     },
     {
       "name": "Next.js",
-      "icon": "next.svg"
+      "icon": "next"
     },
     {
       "name": "Tailwind",
-      "icon": "tailwind.svg"
+      "icon": "tailwind"
     },
     {
       "name": "HTML",
-      "icon": "html.svg"
+      "icon": "html"
     },
     {
       "name": "CSS",
-      "icon": "css.svg"
+      "icon": "css"
     }
   ],
   "backend": [
     {
       "name": "Auth0",
-      "icon": "auth0.svg"
+      "icon": "auth0"
     },
     {
       "name": "Bash",
-      "icon": "bash.svg"
+      "icon": "bash"
     }
   ],
   "frameworks": [
     {
       "name": "JUnit/NUnit",
-      "icon": "test.svg"
+      "icon": "test"
     }, 
     {
       "name": "Pytorch",
-      "icon": "pytorch.svg"
+      "icon": "pytorch"
     },
     {
       "name": "Docker",
-      "icon": "docker.svg"
+      "icon": "docker"
     },
     {
       "name": "Git",
-      "icon": "git.svg"
+      "icon": "git"
     },
     {
       "name": "Figma",
-      "icon": "figma.svg"
+      "icon": "figma"
     }
   ]
 }
